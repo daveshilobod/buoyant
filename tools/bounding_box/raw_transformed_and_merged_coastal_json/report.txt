@@ -1,0 +1,4 @@
+Total count of objects from source files: 53753
+Duplicate objects found: 0
+Count of objects that are identical except for the geohashCenter: 0
+Count of objects where 'geohashCenter' is duplicated but the other properties are not identical: 0

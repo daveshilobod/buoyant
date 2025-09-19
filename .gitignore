@@ -1,0 +1,23 @@
+# deps
+node_modules/
+
+# env
+.env
+.env.*
+
+# logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# temp
+*.tmp
+*.temp
+.cache/
+.npm/
