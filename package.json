@@ -1,0 +1,42 @@
+{
+  "name": "buoyant",
+  "version": "0.1.0",
+  "description": "Lightweight NOAA marine data aggregator - surf, wind, and tide conditions",
+  "main": "index.js",
+  "bin": {
+    "buoyant": "./cli.js"
+  },
+  "scripts": {
+    "test": "node tests/run-all.js",
+    "test:unit": "node tests/test-buoyant.js",
+    "test:cli": "node tests/test-cli.js",
+    "example": "node examples/simple.js"
+  },
+  "keywords": [
+    "noaa",
+    "marine",
+    "weather",
+    "surf",
+    "waves",
+    "ndbc",
+    "buoy",
+    "tide",
+    "ocean"
+  ],
+  "author": "Dave Shilobod",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "commander": "^11.1.0",
+    "geofire-common": "^6.0.0",
+    "ngeohash": "^0.6.3",
+    "package.json": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveshilobod/buoyant.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
